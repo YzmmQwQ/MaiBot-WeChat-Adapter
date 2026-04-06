@@ -2,7 +2,13 @@
 import threading
 from pathlib import Path
 from typing import Any, Callable, Dict, Optional
-import tomllib
+
+# Python 3.11+ 使用内置 tomllib，否则使用 tomli
+try:
+    import tomllib
+except ImportError:
+    import tomli as tomllib
+
 import tomli_w
 
 from src.config.config_base import Config
