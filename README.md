@@ -2,6 +2,11 @@
 
 基于微信 iLink Bot API 的 MaiBot 适配器，使用 maim_message 通信协议。
 
+## 致谢
+
+- 微信 API 客户端实现参考了 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 项目中的 `weixin_oc` 适配器代码 (AGPL v3)
+- maim_message 通信层和消息处理参考了 [MaiBot-NapCat-Adapter](https://github.com/Mai-with-u/MaiBot-NapCat-Adapter) 项目 (GPL v3)
+
 ## 功能特性
 
 - 支持微信个人号扫码登录
@@ -110,4 +115,4 @@ MaiBot-WeChat-Adapter/
 
 ## 许可证
 
-MIT License
+GNU Affero General Public License v3.0 (AGPL-3.0)
